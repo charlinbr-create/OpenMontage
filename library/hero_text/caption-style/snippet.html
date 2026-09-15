@@ -1,0 +1,12 @@
+<!-- caption-style: estilo de legenda aprovado (Reel 14/09/2026).
+     Extraído de projects/pixel-google-oficina/composition-pip/index.html.
+     Fonte Body = assets/body.ttf (Segoe UI bold); Bebas fica só nos títulos. Legendas a partir de y=1490, uma por vez, z-index 80.
+     O agente copia body.ttf para assets/, cola o CSS no <style> e gera um .caption por frase com data-start/data-duration
+     vindos do alinhamento da narração (words.json). <b> destaca uma palavra em ciano. -->
+<style>
+@font-face{font-family:Body;src:url('assets/body.ttf')}
+.caption{position:absolute;left:70px;top:1490px;width:880px;height:120px;display:flex;align-items:center;justify-content:center;z-index:80;text-align:center}
+.caption span{font:58px/1.15 Body;background:#080e19;padding:12px 25px;border-radius:9px;color:#f5f8ff;box-shadow:0 3px 0 #65dcff;max-width:880px}
+.caption b{color:#65dcff}
+</style>
+<div class="clip caption" id="cap0" data-start="0" data-duration="0" data-track-index="20"><span>Texto da frase</span></div>

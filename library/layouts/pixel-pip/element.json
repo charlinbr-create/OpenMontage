@@ -1,0 +1,11 @@
+{
+  "slug": "pixel-pip",
+  "name": "Pixel em quadro (PiP)",
+  "category": "layouts",
+  "tags": ["pixel", "apresentador", "pip", "reel", "9:16"],
+  "files": ["snippet.html", "pixel-pip.mp4", "thumb.jpg"],
+  "fill": ["data-start", "data-duration"],
+  "notes": "Loop do Pixel falando (17,2 s, 480×480, sem lip-sync novo) num quadro 240×240 em x=700,y=1225 com borda #65dcff. Fica acima das demos e abaixo das legendas. Não cobrir com títulos.",
+  "source": "projects/pixel-google-oficina/composition-pip/index.html + build-pip.mjs",
+  "approved": "2026-09-14"
+}

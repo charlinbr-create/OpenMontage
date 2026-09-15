@@ -1,0 +1,33 @@
+<!-- outro-scene: encerramento aprovado (Reel 14/09/2026) — Pixel em tela cheia, caixa "escolhendo a fonte" trocando
+     tipografia 3× e a placa de CTA entrando por baixo. Extraído do index.html principal (não da subcomposição s5).
+     Tempos convertidos para origem local 0 s (no Reel começava em 23.002 s); intervalos relativos preservados.
+     Duração total: 3.998 s. O agente soma o offset da cena (data-start do outro-video) em TODOS os data-start e nas
+     posições do timeline GSAP, ou monta como subcomposição própria. Legendas do trecho vêm de caption-style.
+     Fontes e mp4 ficam em assets/ (copiar desta pasta). CSS efetivo já com os overrides do Reel (font-box em 605,990). -->
+<style>
+@font-face{font-family:Display;src:url('assets/bebas.woff2')}
+@font-face{font-family:Mono;src:url('assets/mono.woff2')}
+@font-face{font-family:Body;src:url('assets/body.ttf')}
+@font-face{font-family:Georgia;src:url('assets/georgia.ttf')}
+.avatar{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover;z-index:1}
+.outro-copy{position:absolute;left:80px;top:1140px;width:850px;z-index:50;background:#080e19;padding:28px 34px;border-left:7px solid #b9a1ff}
+.outro-copy h2{font:110px/.96 Display;margin:0 0 18px}
+.outro-copy p{font:36px Body;margin:0;color:#b9a1ff}
+.font-box{position:absolute;left:605px;top:990px;width:330px;padding:25px;background:#080e19;border:2px solid #b9a1ff;z-index:50;box-shadow:16px 16px 0 #152138}
+.font-box small{font:23px Mono;display:block;color:#b9a1ff;margin-bottom:15px}
+.font-option{font:55px Georgia}
+.font-check{color:#65dcff;font:25px Mono;margin-top:15px}
+</style>
+<video class="clip avatar" id="outro-video" src="assets/pixel-outro.mp4" data-start="0" data-duration="3.998" data-track-index="5" muted playsinline style="z-index:40"></video>
+<div class="clip font-box" id="fontbox" data-start="0" data-duration="2.46" data-track-index="10"><small>ESCOLHENDO A FONTE...</small><div class="font-option" id="fontsample">Órbita</div><div class="font-check">AINDA NESSA?</div></div>
+<div class="clip outro-copy" id="outro-copy" data-start="2.46" data-duration="1.538" data-track-index="10"><h2>SALVA A LISTA.</h2><p>5 ferramentas. Cada uma no seu lugar.</p></div>
+<script>
+// Somar o offset da cena nas posições (último argumento) se a peça for colada no timeline principal.
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#fontbox',{rotation:5,x:50,opacity:0},{rotation:0,x:0,opacity:1,duration:.35,ease:'power3.out'},0);
+tl.set('#fontsample',{fontFamily:'Mono'},0.7);
+tl.set('#fontsample',{fontFamily:'Display'},1.25);
+tl.set('#fontsample',{fontFamily:'Georgia'},1.8);
+tl.fromTo('#outro-copy',{y:40,opacity:0},{y:0,opacity:1,duration:.35,ease:'power3.out'},2.46);
+window.__timelines=window.__timelines||{};window.__timelines.main=tl;
+</script>

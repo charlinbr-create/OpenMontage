@@ -1,0 +1,11 @@
+{
+  "slug": "real-video-frame",
+  "name": "Quadro das demonstrações reais",
+  "category": "layouts",
+  "tags": ["demo", "screen-recording", "quadro", "borda", "reel", "9:16"],
+  "files": ["snippet.html", "thumb.jpg"],
+  "fill": ["id", "src", "data-start", "data-duration", "data-track-index", "left", "top", "width", "height"],
+  "notes": "Vídeo real da ferramenta com borda #465675 e sombra deslocada #03070e, cantos 14px, object-fit contain. Área < y=1225 (quadro do Pixel); legendas ≥ y=1490. Reajustar tamanho por cena, nunca deformar.",
+  "source": "projects/pixel-google-oficina/composition-pip/index.html (#real-pomelli … #real-mixboard)",
+  "approved": "2026-09-14"
+}

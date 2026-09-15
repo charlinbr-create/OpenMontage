@@ -1,0 +1,9 @@
+<!-- real-video-frame: quadro que posiciona as demonstrações reais (real-*.mp4) das ferramentas.
+     Extraído de projects/pixel-google-oficina/composition-pip/index.html (Reel aprovado em 14/09/2026).
+     Regra: a área da demo termina antes de y=1225 (quadro do Pixel) e as legendas começam em y=1490.
+     O agente preenche id, src, data-start, data-duration e o track-index (50+n), e ajusta left/top/width/height
+     por cena para o vídeo caber sem deformar (object-fit: contain). Variações aprovadas no Reel:
+       largo 860×726 em (80,596) · 860×683 em (80,620) · 920×519 em (50,710) · 920×589 em (50,660) · 860×688 em (80,615)
+       e via override: 710×600 em (155,605) · 730×580 em (145,620) · 725×580 em (147,620). -->
+<video class="clip" id="real-DEMO" src="assets/real-DEMO.mp4" data-start="0" data-duration="0" data-track-index="50" muted playsinline
+  style="position:absolute;z-index:3;left:80px;top:596px;width:860px;height:726px;object-fit:contain;border-radius:14px;box-shadow:0 0 0 2px #465675,14px 18px 0 #03070e"></video>
