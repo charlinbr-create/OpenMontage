@@ -2,10 +2,34 @@
   "slug": "caption-style",
   "name": "Legenda em placa (Body 58px)",
   "category": "hero_text",
-  "tags": ["legenda", "caption", "body", "segoe", "reel", "portugues"],
-  "files": ["snippet.html", "body.ttf", "thumb.jpg"],
-  "fill": ["data-start", "data-duration", "texto"],
+  "tags": [
+    "legenda",
+    "caption",
+    "body",
+    "segoe",
+    "reel",
+    "portugues"
+  ],
+  "files": [
+    "snippet.html",
+    "body.ttf",
+    "thumb.jpg"
+  ],
+  "fill": [
+    "data-start",
+    "data-duration",
+    "texto"
+  ],
   "notes": "Uma frase curta por vez, placa #080e19 com filete ciano embaixo, texto #f5f8ff 58px/1.15 Body, a partir de y=1490. Bebas só em títulos. Sincronizar com a narração e não sobrepor placas.",
   "source": "projects/pixel-google-oficina/composition-pip/index.html (.caption, .caption span, .caption b)",
-  "approved": "2026-09-14"
+  "approved": "2026-09-14",
+  "stars": 4,
+  "uses": [
+    {
+      "request_id": "8b79350f-d2bc-41fd-901c-3273ad74877b",
+      "project": "pixel-google-oficina",
+      "at": "2026-09-14T18:00:00.000Z"
+    }
+  ],
+  "archived": false
 }

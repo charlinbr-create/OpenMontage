@@ -2,10 +2,39 @@
   "slug": "outro-scene",
   "name": "Encerramento: Pixel + escolha de fonte + CTA",
   "category": "motion",
-  "tags": ["outro", "cta", "pixel", "gsap", "reel", "9:16"],
-  "files": ["snippet.html", "pixel-outro.mp4", "bebas.woff2", "mono.woff2", "body.ttf", "georgia.ttf", "gsap.min.js", "thumb.jpg"],
-  "fill": ["offset da cena (data-start do outro-video, somado a todos os data-start e às posições GSAP)", "texto do h2/p do outro-copy", "texto do font-option"],
+  "tags": [
+    "outro",
+    "cta",
+    "pixel",
+    "gsap",
+    "reel",
+    "9:16"
+  ],
+  "files": [
+    "snippet.html",
+    "pixel-outro.mp4",
+    "bebas.woff2",
+    "mono.woff2",
+    "body.ttf",
+    "georgia.ttf",
+    "gsap.min.js",
+    "thumb.jpg"
+  ],
+  "fill": [
+    "offset da cena (data-start do outro-video, somado a todos os data-start e às posições GSAP)",
+    "texto do h2/p do outro-copy",
+    "texto do font-option"
+  ],
   "notes": "3,998 s. Pixel em tela cheia (z 40), caixa 'ESCOLHENDO A FONTE...' entra girando em 0 s e troca Mono→Display→Georgia em 0,7/1,25/1,8 s; placa CTA sobe em 2,46 s. Nenhum bloco de título pode cobrir a cabeça do Pixel.",
   "source": "projects/pixel-google-oficina/composition-pip/index.html (#outro-video, #fontbox, #fontsample, #outro-copy, tl 23.002–27 s)",
-  "approved": "2026-09-14"
+  "approved": "2026-09-14",
+  "stars": 4,
+  "uses": [
+    {
+      "request_id": "fbec1743-7150-4b84-9bfc-7a822dab2ca5",
+      "project": "pixel-google-oficina",
+      "at": "2026-09-14T18:00:00.000Z"
+    }
+  ],
+  "archived": false
 }
