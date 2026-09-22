@@ -1,0 +1,13 @@
+<!-- baby-pop-in: entrada do objeto-chave no instante da keyword. Escala 0 -> 1.1 -> 1 em 200 ms + pop.wav curto (0,12 s).
+     O elemento alvo é o <img class="obj"> do baby-frame-cream (ou o personagem, se ele for o objeto do quadro).
+     O agente preenche o seletor, o instante T (segundos, já com o offset da cena) e copia pop.wav para assets/. -->
+<audio class="clip" id="pop1" src="assets/pop.wav" data-start="0" data-duration="0.12" data-track-index="90"></audio>
+<script>
+// T = instante da keyword na narração (words.json). Somar o offset da cena.
+window.__timelines=window.__timelines||{};
+const T=0, tlp=gsap.timeline({paused:true});
+tlp.set('#obj1',{scale:0,opacity:1},0);
+tlp.to('#obj1',{scale:1.1,duration:.14,ease:'power2.out'},T);
+tlp.to('#obj1',{scale:1,duration:.06,ease:'power1.inOut'},T+.14);
+window.__timelines.pop1=tlp;
+</script>

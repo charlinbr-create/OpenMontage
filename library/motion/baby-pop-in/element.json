@@ -1,0 +1,29 @@
+{
+  "slug": "baby-pop-in",
+  "name": "Pop-in do objeto (200 ms + som)",
+  "category": "motion",
+  "tags": [
+    "baby-channel",
+    "motion",
+    "pop",
+    "gsap",
+    "sfx"
+  ],
+  "files": [
+    "snippet.html",
+    "pop.wav",
+    "gsap.min.js",
+    "thumb.png"
+  ],
+  "fill": [
+    "seletor do objeto (#obj1)",
+    "T = instante da keyword",
+    "data-start do áudio = T"
+  ],
+  "notes": "Escala 0 -> 1,1 (140 ms) -> 1 (60 ms). pop.wav sintetizado (sweep 900 Hz, 0,12 s), trocar por SFX melhor se o Charles quiser. Objeto já nasce recortado; fundo parado. Nada além disso se move no quadro.",
+  "source": "Canal animado de bebê 0-12 meses (nota viva, Direção visual 22-set-2026)",
+  "approved": "2026-09-22",
+  "stars": 0,
+  "uses": [],
+  "archived": false
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "baby-card-teal",
+  "name": "Cartão teal (hook / CTA) do canal de bebê",
+  "category": "layouts",
+  "tags": [
+    "baby-channel",
+    "layout",
+    "9:16",
+    "teal",
+    "hook",
+    "cta"
+  ],
+  "files": [
+    "snippet.html",
+    "thumb.png"
+  ],
+  "fill": [
+    "data-start",
+    "data-duration",
+    "texto do .txt (keyword em <b>)",
+    "src do personagem (opcional)"
+  ],
+  "notes": "Fundo #1F5F73. Usar só no hook (0-2 s) e no CTA, no máximo 2 cortes por vídeo. Texto branco 100px MontserratXB, keyword preta sobre pílula #FFD400. Fonte vem de hero_text/baby-caption.",
+  "source": "Canal animado de bebê 0-12 meses (nota viva, Direção visual 22-set-2026)",
+  "approved": "2026-09-22",
+  "stars": 0,
+  "uses": [],
+  "archived": false
+}

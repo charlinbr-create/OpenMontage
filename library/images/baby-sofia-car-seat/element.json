@@ -1,13 +1,13 @@
 {
   "slug": "baby-sofia-car-seat",
-  "name": "Sofia na cadeirinha do carro",
+  "name": "Sofia na cadeirinha",
   "category": "images",
   "tags": [
     "baby-channel",
     "frame",
     "character:sofia",
-    "pose:car-seat",
-    "expr:calm",
+    "pose:sitting",
+    "expr:neutral",
     "object:car-seat",
     "topic:safety"
   ],
@@ -16,10 +16,10 @@
     "cutout.png"
   ],
   "fill": [],
-  "notes": "",
-  "source": "gen/lote.py sofia-teste-01 seed 42",
+  "notes": "v2 22-set: pés lisos (built-in socks), seed 101. Substitui v1 de nota 2 (dedos).",
+  "source": "gen/lote.py sofia-pes-t1 seed 101",
   "approved": "2026-09-22",
-  "stars": 2,
+  "stars": 5,
   "uses": [],
   "archived": false
 }

@@ -1,0 +1,28 @@
+{
+  "slug": "baby-camila-bed-crib-roomshare",
+  "name": "Camila na cama, Sofia no berço ao lado",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "character:camila",
+    "pose:lying-back",
+    "expr:sleeping",
+    "object:bed",
+    "object:crib",
+    "topic:safe-sleep",
+    "topic:room-sharing"
+  ],
+  "files": [
+    "baby-camila-bed-crib-roomshare.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Roteiro 01 q7, v2 seed 7, berço vazio (v1 tinha cobertor).",
+  "source": "gen/lotes/roteiro-01-redo.json",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

@@ -19,7 +19,7 @@
   "notes": "v2 em 1088x1920, pés cobertos (seed 101). Substitui a v1 de nota 2.",
   "source": "gen/lote.py sofia-nota2-redo seed 101",
   "approved": "2026-09-22",
-  "stars": 0,
+  "stars": 2,
   "uses": [],
   "archived": false
 }

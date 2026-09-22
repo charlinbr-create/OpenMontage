@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-teddy-laughing",
+  "name": "Sofia rindo abraçando ursinho",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:laughing",
+    "object:teddy-bear",
+    "topic:play"
+  ],
+  "files": [
+    "baby-sofia-teddy-laughing.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Roteiro 01 q4, v2 seed 7 ('one single baby, one head only' — v1 duplicou a cabeça).",
+  "source": "gen/lotes/roteiro-01-redo.json",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

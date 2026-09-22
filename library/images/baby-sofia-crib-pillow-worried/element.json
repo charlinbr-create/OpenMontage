@@ -1,0 +1,26 @@
+{
+  "slug": "baby-sofia-crib-pillow-worried",
+  "name": "Sofia preocupada com travesseiro no berço",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:worried",
+    "object:crib",
+    "object:pillow",
+    "topic:safe-sleep"
+  ],
+  "files": [
+    "baby-sofia-crib-pillow-worried.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Roteiro 01 q1, seed 101, 1ª tentativa.",
+  "source": "gen/lotes/roteiro-01.json",
+  "approved": "2026-09-22",
+  "stars": 1,
+  "uses": [],
+  "archived": false
+}

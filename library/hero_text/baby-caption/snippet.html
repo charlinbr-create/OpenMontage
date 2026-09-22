@@ -1,0 +1,12 @@
+<!-- baby-caption: legenda do canal de bebê. Montserrat ExtraBold preta #1A1A1A, sem contorno, 2 a 4 palavras por linha,
+     centro-baixo em y=1180..1440 (acima dos 25% inferiores, zona da UI). Keyword: <b> = texto preto sobre pílula amarela #FFD400.
+     Sobre baby-card-teal a cor do texto vira branca (.on-teal). Uma legenda por vez, palavra por palavra opcional via words.json.
+     O agente copia montserrat-extrabold.ttf para assets/, cola o CSS e gera um .bcap por frase com data-start/data-duration. -->
+<style>
+@font-face{font-family:MontserratXB;src:url('assets/montserrat-extrabold.ttf')}
+.bcap{position:absolute;left:60px;top:1180px;width:960px;height:260px;display:flex;align-items:center;justify-content:center;z-index:80;text-align:center}
+.bcap span{font:100px/1.15 MontserratXB;color:#1A1A1A;text-transform:uppercase;max-width:960px}
+.bcap b{background:#FFD400;color:#1A1A1A;padding:0 26px;border-radius:30px;font-weight:inherit;display:inline-block;line-height:1.05}
+.bcap.on-teal span{color:#fff}
+</style>
+<div class="clip bcap" id="bcap0" data-start="0" data-duration="0" data-track-index="20"><span>Pillows. Even<br>the <b>small</b> ones.</span></div>

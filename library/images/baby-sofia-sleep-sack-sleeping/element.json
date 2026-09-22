@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-sleep-sack-sleeping",
+  "name": "Sofia dormindo em sleep sack",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:lying-back",
+    "expr:sleeping",
+    "object:sleep-sack",
+    "topic:safe-sleep"
+  ],
+  "files": [
+    "baby-sofia-sleep-sack-sleeping.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Roteiro 01 q2, vista de cima, seed 101.",
+  "source": "gen/lotes/roteiro-01.json",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

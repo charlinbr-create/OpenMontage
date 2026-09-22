@@ -1,0 +1,30 @@
+{
+  "slug": "baby-caption",
+  "name": "Legenda Montserrat ExtraBold + pílula amarela",
+  "category": "hero_text",
+  "tags": [
+    "baby-channel",
+    "legenda",
+    "caption",
+    "montserrat",
+    "ingles",
+    "9:16"
+  ],
+  "files": [
+    "snippet.html",
+    "montserrat-extrabold.ttf",
+    "thumb.png"
+  ],
+  "fill": [
+    "data-start",
+    "data-duration",
+    "texto (keyword em <b>)",
+    "classe on-teal quando sobre o cartão"
+  ],
+  "notes": "Preta #1A1A1A sem contorno, 100px/1.15, 2 a 4 palavras por linha, até 2 linhas, y=1180..1440. Keyword preta sobre #FFD400 (16:1). Nunca amarelo solto sobre creme. Uma placa por vez, sincronizada com a narração.",
+  "source": "Canal animado de bebê 0-12 meses (nota viva, Direção visual 22-set-2026)",
+  "approved": "2026-09-22",
+  "stars": 0,
+  "uses": [],
+  "archived": false
+}

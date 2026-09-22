@@ -1,0 +1,29 @@
+{
+  "slug": "baby-frame-cream",
+  "name": "Quadro creme do canal de bebê",
+  "category": "layouts",
+  "tags": [
+    "baby-channel",
+    "layout",
+    "9:16",
+    "creme",
+    "cartoon"
+  ],
+  "files": [
+    "snippet.html",
+    "thumb.png"
+  ],
+  "fill": [
+    "data-start",
+    "data-duration",
+    "src do personagem (cutout.png)",
+    "src/posição do objeto (opcional)",
+    "duração do zoom = data-duration"
+  ],
+  "notes": "Fundo #F5EFE6, personagem 960px de altura em y=380..1340, sombra em y=1310. Zoom 4% no quadro (2 a 3 s). Um objeto por quadro, só se a frase pedir. Legenda em y=1180..1440 (hero_text/baby-caption).",
+  "source": "Canal animado de bebê 0-12 meses (nota viva, Direção visual 22-set-2026)",
+  "approved": "2026-09-22",
+  "stars": 0,
+  "uses": [],
+  "archived": false
+}

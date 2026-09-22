@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-car-seat-sleeping",
+  "name": "Sofia dormindo na cadeirinha",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:sleeping",
+    "object:car-seat",
+    "topic:safe-sleep"
+  ],
+  "files": [
+    "baby-sofia-car-seat-sleeping.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Roteiro 01 q5, v2 seed 7, três quartos com pernas pra baixo (v1 dedos).",
+  "source": "gen/lotes/roteiro-01-redo.json",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

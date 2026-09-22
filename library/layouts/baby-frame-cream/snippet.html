@@ -1,0 +1,25 @@
+<!-- baby-frame-cream: quadro padrão do canal de bebê. Fundo creme fixo, personagem (cutout.png da biblioteca images/baby-*)
+     centrado ocupando ~50% da altura, sombra elipse #D9D2C7, objeto opcional em camada própria (pop-in vem de motion/baby-pop-in).
+     Zoom lento de 4% no quadro inteiro durante a duração. Top 15% e bottom 25% ficam vazios; legenda vem de hero_text/baby-caption.
+     O agente preenche data-start/data-duration, src do personagem (e do objeto, se houver) e soma o offset no GSAP. -->
+<style>
+.bframe{position:absolute;left:0;top:0;width:1080px;height:1920px;background:#F5EFE6;overflow:hidden;z-index:1}
+.bframe .zoom{position:absolute;inset:0;transform-origin:50% 55%}
+.bframe .shadow{position:absolute;left:290px;top:1310px;width:500px;height:70px;background:#D9D2C7;border-radius:50%}
+.bframe .char{position:absolute;left:0;top:380px;width:1080px;height:960px;object-fit:contain;object-position:50% 100%}
+.bframe .obj{position:absolute;width:300px;height:300px;object-fit:contain;transform-origin:50% 50%}
+</style>
+<div class="clip bframe" id="frame1" data-start="0" data-duration="0" data-track-index="5">
+  <div class="zoom">
+    <div class="shadow"></div>
+    <img class="char" src="assets/baby-sofia-crib-sleeping-cutout.png">
+    <!-- objeto opcional: <img class="obj" id="obj1" src="assets/baby-obj-x-cutout.png" style="left:640px;top:1000px"> -->
+  </div>
+</div>
+<script>
+// zoom lento 1.00 -> 1.04 ao longo do quadro; somar o offset da cena na posição.
+window.__timelines=window.__timelines||{};
+const tlf=gsap.timeline({paused:true});
+tlf.fromTo('#frame1 .zoom',{scale:1},{scale:1.04,duration:2.5,ease:'none'},0);
+window.__timelines.frame1=tlf;
+</script>

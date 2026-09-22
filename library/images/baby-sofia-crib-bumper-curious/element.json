@@ -1,0 +1,26 @@
+{
+  "slug": "baby-sofia-crib-bumper-curious",
+  "name": "Sofia no berço olhando bumper",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:curious",
+    "object:crib",
+    "object:bumper",
+    "topic:safe-sleep"
+  ],
+  "files": [
+    "baby-sofia-crib-bumper-curious.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Roteiro 01 q3, seed 101.",
+  "source": "gen/lotes/roteiro-01.json",
+  "approved": "2026-09-22",
+  "stars": 1,
+  "uses": [],
+  "archived": false
+}

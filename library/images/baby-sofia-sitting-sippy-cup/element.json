@@ -1,6 +1,6 @@
 {
   "slug": "baby-sofia-sitting-sippy-cup",
-  "name": "Sofia sentada olhando copo",
+  "name": "Sofia curiosa com copo",
   "category": "images",
   "tags": [
     "baby-channel",
@@ -16,10 +16,10 @@
     "cutout.png"
   ],
   "fill": [],
-  "notes": "Primeiro quadro local (Qwen-Image-Edit), aprovado 22-set.",
-  "source": "gen/gerar.py seed 42, ref baby-ref-sofia-camila",
+  "notes": "v2 22-set: pés lisos (built-in socks), seed 101. Substitui v1 de nota 2 (dedos/tênis).",
+  "source": "gen/lote.py sofia-pes-t1 seed 101",
   "approved": "2026-09-22",
-  "stars": 2,
+  "stars": 5,
   "uses": [],
   "archived": false
 }
