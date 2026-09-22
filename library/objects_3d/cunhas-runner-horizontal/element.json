@@ -1,0 +1,27 @@
+{
+  "slug": "cunhas-runner-horizontal",
+  "name": "Cunhas Runner · Horizontal",
+  "category": "objects_3d",
+  "tags": [
+    "cunhas runner",
+    "queen's runner",
+    "logo",
+    "blender",
+    "3d",
+    "ciano",
+    "vermelho",
+    "horizontal",
+    "assinatura"
+  ],
+  "files": [
+    "cunhas-runner-v3-inc-vazado.blend",
+    "preview-3d-v3-inc-vazado.png"
+  ],
+  "fill": [],
+  "notes": "Logo horizontal v3, com INC vazado. Modelo aprovado por Charles em 16/09/2026; ainda sem nota de estrelas na biblioteca. Ciano e vermelho, esmalte acetinado, fundo grafite no render. Preservar geometria e proporções da marca.",
+  "source": "D:\\AI\\Projects\\clientes\\cunhas-runner-logo-3d\\cunhas-runner-v3-inc-vazado.blend",
+  "approved": "2026-09-16",
+  "stars": 0,
+  "uses": [],
+  "archived": false
+}

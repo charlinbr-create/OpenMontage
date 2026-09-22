@@ -1,0 +1,28 @@
+{
+  "slug": "cunhas-runner-redondo",
+  "name": "Cunhas Runner · Redondo",
+  "category": "objects_3d",
+  "tags": [
+    "cunhas runner",
+    "queen's runner",
+    "logo",
+    "blender",
+    "3d",
+    "ciano",
+    "vermelho",
+    "redondo",
+    "aro",
+    "avatar"
+  ],
+  "files": [
+    "cunhas-runner-redondo.blend",
+    "preview-redondo.png"
+  ],
+  "fill": [],
+  "notes": "Modelo redondo aprovado por Charles em 16/09/2026; ainda sem nota de estrelas na biblioteca. INC vazado, aro colorido independente. No Blender, 01 MOVER TUDO controla o conjunto. A cena contém um teste de movimento de 4 segundos que NÃO foi aprovado; reutilizar o modelo estático. A animação precisa de nova avaliação.",
+  "source": "D:\\AI\\Projects\\clientes\\cunhas-runner-logo-3d\\round\\cunhas-runner-redondo.blend",
+  "approved": "2026-09-16",
+  "stars": 0,
+  "uses": [],
+  "archived": false
+}
