@@ -1,0 +1,24 @@
+{
+  "slug": "baby-sofia-arms-up-laughing",
+  "name": "Sofia braços pra cima rindo",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:laughing",
+    "topic:milestones"
+  ],
+  "files": [
+    "baby-sofia-arms-up-laughing.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "",
+  "source": "gen/lote.py sofia-teste-01 seed 42",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

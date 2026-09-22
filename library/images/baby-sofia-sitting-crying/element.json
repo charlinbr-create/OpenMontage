@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-sitting-crying",
+  "name": "Sofia sentada chorando",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:crying",
+    "topic:crying",
+    "topic:sleep"
+  ],
+  "files": [
+    "baby-sofia-sitting-crying.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "",
+  "source": "gen/lote.py sofia-teste-01 seed 42",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

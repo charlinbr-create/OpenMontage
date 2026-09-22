@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-sitting-sippy-cup",
+  "name": "Sofia sentada olhando copo",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:curious",
+    "object:sippy-cup",
+    "topic:feeding"
+  ],
+  "files": [
+    "baby-sofia-sitting-sippy-cup.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Primeiro quadro local (Qwen-Image-Edit), aprovado 22-set.",
+  "source": "gen/gerar.py seed 42, ref baby-ref-sofia-camila",
+  "approved": "2026-09-22",
+  "stars": 2,
+  "uses": [],
+  "archived": false
+}

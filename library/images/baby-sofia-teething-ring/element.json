@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-teething-ring",
+  "name": "Sofia mordendo mordedor",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:focused",
+    "object:teething-ring",
+    "topic:teething"
+  ],
+  "files": [
+    "baby-sofia-teething-ring.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Precisou de 3 tentativas: pose com mãos na boca puxa braço de fora; roupa dita na própria cena (seed 11).",
+  "source": "gen/gerar.py seed 11",
+  "approved": "2026-09-22",
+  "stars": 2,
+  "uses": [],
+  "archived": false
+}

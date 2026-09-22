@@ -1,0 +1,26 @@
+{
+  "slug": "baby-camila-feeding-sofia-spoon",
+  "name": "Camila dando colher pra Sofia",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "character:camila",
+    "pose:feeding",
+    "expr:open-mouth",
+    "object:spoon",
+    "topic:solids"
+  ],
+  "files": [
+    "baby-camila-feeding-sofia-spoon.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "",
+  "source": "gen/lote.py sofia-teste-01 seed 42",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

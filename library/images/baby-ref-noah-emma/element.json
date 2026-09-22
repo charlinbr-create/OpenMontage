@@ -1,0 +1,22 @@
+{
+  "slug": "baby-ref-noah-emma",
+  "name": "Ref dupla A: Noah (0-3m) + Emma",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "reference",
+    "character:noah",
+    "character:emma",
+    "age:0-3m"
+  ],
+  "files": [
+    "baby-ref-noah-emma.png"
+  ],
+  "fill": [],
+  "notes": "Character sheet aprovado. Anexar em todo prompt de quadro da dupla A. Nao usar direto em video.",
+  "source": "ChatGPT Images, 22-set-2026, prompt na nota 'Canal de bebê - style sheet e elenco'",
+  "approved": "2026-09-22",
+  "stars": 5,
+  "uses": [],
+  "archived": false
+}

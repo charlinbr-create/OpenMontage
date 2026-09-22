@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-crawling-ball",
+  "name": "Sofia engatinhando atrás da bola",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:crawling",
+    "expr:excited",
+    "object:ball",
+    "topic:development"
+  ],
+  "files": [
+    "baby-sofia-crawling-ball.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "Regenerado (seed 7) depois de cravar o body no estilo.",
+  "source": "gen/lote.py sofia-teste-01-redo seed 7",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

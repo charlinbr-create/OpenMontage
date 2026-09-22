@@ -1,0 +1,24 @@
+{
+  "slug": "baby-sofia-tummy-time-smiling",
+  "name": "Sofia tummy time sorrindo",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:tummy-time",
+    "expr:smiling",
+    "topic:development"
+  ],
+  "files": [
+    "baby-sofia-tummy-time-smiling.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "",
+  "source": "gen/lote.py sofia-teste-01 seed 42",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

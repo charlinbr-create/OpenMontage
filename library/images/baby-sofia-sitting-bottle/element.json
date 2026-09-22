@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-sitting-bottle",
+  "name": "Sofia bebendo mamadeira",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:sitting",
+    "expr:drinking",
+    "object:bottle",
+    "topic:feeding"
+  ],
+  "files": [
+    "baby-sofia-sitting-bottle.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "v2 em 1088x1920, pés cobertos (seed 101). Substitui a v1 de nota 2.",
+  "source": "gen/lote.py sofia-nota2-redo seed 101",
+  "approved": "2026-09-22",
+  "stars": 0,
+  "uses": [],
+  "archived": false
+}

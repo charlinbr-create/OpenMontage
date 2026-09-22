@@ -1,0 +1,25 @@
+{
+  "slug": "baby-sofia-car-seat",
+  "name": "Sofia na cadeirinha do carro",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:car-seat",
+    "expr:calm",
+    "object:car-seat",
+    "topic:safety"
+  ],
+  "files": [
+    "baby-sofia-car-seat.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "",
+  "source": "gen/lote.py sofia-teste-01 seed 42",
+  "approved": "2026-09-22",
+  "stars": 2,
+  "uses": [],
+  "archived": false
+}

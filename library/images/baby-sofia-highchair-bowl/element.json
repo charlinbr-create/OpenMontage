@@ -1,0 +1,26 @@
+{
+  "slug": "baby-sofia-highchair-bowl",
+  "name": "Sofia no cadeirão com tigela",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "frame",
+    "character:sofia",
+    "pose:highchair",
+    "expr:curious",
+    "object:bowl",
+    "object:highchair",
+    "topic:solids"
+  ],
+  "files": [
+    "baby-sofia-highchair-bowl.png",
+    "cutout.png"
+  ],
+  "fill": [],
+  "notes": "",
+  "source": "gen/lote.py sofia-teste-01 seed 42",
+  "approved": "2026-09-22",
+  "stars": 4,
+  "uses": [],
+  "archived": false
+}

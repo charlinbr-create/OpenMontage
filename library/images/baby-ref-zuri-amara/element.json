@@ -1,0 +1,22 @@
+{
+  "slug": "baby-ref-zuri-amara",
+  "name": "Ref dupla D: Zuri (10-12m) + Amara",
+  "category": "images",
+  "tags": [
+    "baby-channel",
+    "reference",
+    "character:zuri",
+    "character:amara",
+    "age:10-12m"
+  ],
+  "files": [
+    "baby-ref-zuri-amara.png"
+  ],
+  "fill": [],
+  "notes": "Character sheet aprovado. Anexar em todo prompt de quadro da dupla D.",
+  "source": "ChatGPT Images, 22-set-2026, prompt na nota 'Canal de bebê - style sheet e elenco'",
+  "approved": "2026-09-22",
+  "stars": 5,
+  "uses": [],
+  "archived": false
+}
